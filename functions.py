@@ -1,6 +1,6 @@
 
-
-def g_todos(filename="todos.txt"):
+FILE_PATH="todos.txt"
+def g_todos(filename=FILE_PATH):
     """
     Read lines from txt
     """
@@ -10,7 +10,7 @@ def g_todos(filename="todos.txt"):
     return todos_l
 
 
-def w_todos(todos_l, filename="todos.txt"):
+def w_todos(todos_l, filename=FILE_PATH):
     """
     Write files to txt
     """
